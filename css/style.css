@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: lato;
+}
+
+/* global section start */
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-lg-12{
+    width: 100%;
+    float: left;
+}
+/* global section end */
+
+/* header section start */
+.header-section{
+    width: 100%;
+    padding: 10px 0px;
+    background:#f6f9f9;
+    float: left;
+}
+.logo img{
+    margin-left: 150px;
+    height: 30px;
+    float: left;
+}
+/* header section end */
+
+/* banner section start */
+.banner-section{
+    
+    width: 100%;
+    float: left;
+    background-image: url(../images/banner.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.inner-banner h1{
+    color: white;
+    font-size: 38pt;
+    padding: 80px 0px 20px 0px;
+    text-align: center;
+}
+.divider{
+    text-align: center;
+}
+.inner-banner p{
+    
+    padding: 20px 0px 150px 0px;
+    color: white;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+}
+.btn a{
+    
+    background: transparent;
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 700;
+    color: white;
+}
+.btn a:hover{
+    background: rgb(0, 153, 255);
+    transition: 1s;
+}
+.arrow-icon .icon{
+    text-align: center;
+    
+}
+.arrow-icon .icon img{
+    padding: 150px 0px 120px 0px;
+    margin: 0px 0px 0px 570px;
+}
+/* banner section end */
+
+/* text area start */
+.text-area{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: #e6e6e6;
+}
+.text-area h1{
+    font-size: 28pt;
+    padding: 80px 0px 20px 0px;
+    text-align: center;
+}
+.text-area p{
+    padding: 10px 50px 60px;
+    line-height: 30px;
+    text-align: center;
+}
+/* text area end */
+
+/* feature section start */
+.feature{
+    width: 100%;
+    
+}
+.feature .inner-feature{
+    margin: 0px 0px 0px 30px;
+    float: left;
+    text-align: center;
+}
+.feature .inner-feature img{
+    margin: 50px 120px 10px ;
+}
+.feature .inner-feature h1{
+    font-size: 14pt;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.feature .inner-feature p{
+    padding: 10px 0px 30px 0px;
+    font-size: 11pt;
+    font-weight: 400;
+    color: #999;
+}
+/* feature section end */
+
+/* portfolio section start */
+.portfolio{
+    
+    height: 710px;
+    float: left;
+    background: rgb(241, 241, 241);
+}
+
+.portfolio h1{
+    font-size: 28pt;
+    padding: 50px 0px 10px 0px;
+    text-align: center;
+}
+.portfolio p{
+    padding: 10px 50px 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.portfolio .inner-portfolio img{
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+}
+.portfolio .col-lg-4{
+    margin:0px 0px 0px 90px;
+   
+    
+}
+
+.portfolio .inner-portfolio{
+    
+    float: left;
+    position: relative;
+}
+.portfolio .inner-portfolio .port-hover{
+    position: absolute;
+    background: rgba(51, 151, 255, 0.8);
+    height: 200px;
+    width: 300px;
+    top: 10px;
+    left: 10px;
+    display: none;
+    
+
+}
+.portfolio .inner-portfolio:hover .port-hover{
+    display: block;
+    
+}
+.portfolio .inner-portfolio .port-hover .icon{
+    position: absolute;
+    top: 70px;
+    left: 95px;
+}
+.portfolio .inner-portfolio .port-hover .icon img{
+    margin-left: -15px;
+    height: 50px;
+    width: 50px;
+}
+/* portfolio section end */
+
+/* submit section start */
+.contact-us{
+    width: 100%;
+    height: 600px;
+    float: left;
+    background-image: url(../images/BG1.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.contact-us h1{
+    font-size: 34pt;
+    padding: 80px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+.contact-us p{
+    padding: 10px 50px 30px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(218, 218, 218);
+    font-weight: 500;
+    font-size: 11pt;
+}
+.inner-contact input{
+    display: block;
+    padding: 15px 10px;
+    margin: 10px 0px 20px 300px;
+    width: 500px;
+    background: transparent;
+    border-bottom: 1px solid rgb(143, 143, 143);
+    border-right: 1px solid rgb(143, 143, 143);
+    border-radius: 5px;
+
+}
+.inner-contact textarea{
+    padding: 15px 10px 50px 10px;
+    margin: 10px 0px 10px 300px;
+    width: 500px;
+    background: transparent;
+    border-bottom: 1px solid rgb(143, 143, 143);
+    border-right: 1px solid rgb(143, 143, 143);
+    border-radius: 5px;
+    font-size: 13pt;
+
+}
+#checkbox{
+    display: inline-block;
+    margin: 0px 10px 0px 300px;
+    padding: 0px;
+    width: 20px;
+}
+.log-in span{
+    color:turquoise;
+    font-size: 12pt;
+    font-weight: 700;
+}
+.log-in a{
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+    font-weight: 600;
+    border: 1px solid  rgb(0, 153, 255);
+    border-radius: 3px;
+    padding: 8px 30px;
+    margin: 0px 0px 0px 240px;
+    position: absolute;
+    bottom: 70px;
+}
+.log-in a:hover{
+    background:  rgb(0, 153, 255);
+    transition: 1s;
+}
+/* submit section end */
+
+/* footer section start */
+.footer-section{
+    width: 100%;
+    height: 60px;
+    float: left;
+    background: rgb(243, 243, 243);
+    position: relative;
+}
+.footer-section p{
+    position: absolute;
+    top: 25px;
+    left: 150px;
+}
+.footer-section .inner-footer{
+    float: left;
+    position: absolute;
+    right: 50px;
+    top: 3px;
+}
+.icon{
+    float: left;
+    
+}
+
+.icon ul li{
+    list-style: none;
+    
+}
+.icon ul li i{
+    font-size: 18pt;
+    color: white;
+    background: rgb(0, 157, 255);
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.icon ul li i:hover{
+    background: transparent;
+    color: rgb(0, 157, 255);
+    transition: 1s;
+    border: 1px solid rgb(0, 157, 255);
+
+}
